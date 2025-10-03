@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/ramasupriya123/Translator_UserInterface.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
