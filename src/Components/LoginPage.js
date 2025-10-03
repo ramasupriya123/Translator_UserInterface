@@ -47,11 +47,11 @@ const LoginPage = () => {
         email: email,
         password: password,
       })
-      const response = await axios.post(`http://localhost:5038/api/Register/login`, {
+      const response = await axios.post(`https://miracle-translator-api-g4gxfbeqgmg7e7g8.eastus-01.azurewebsites.net`, {
         email: email,
         password: password,
       });
-      
+
       console.log('Response:', response);
       console.log('Response:', response.data);
       // console.log(email);
