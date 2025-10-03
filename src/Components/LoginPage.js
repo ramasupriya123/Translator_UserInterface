@@ -56,7 +56,7 @@ const LoginPage = () => {
       console.log('Response:', response.data);
       // console.log(email);
 
-      if (response.status === 200 && response.data != "Invalid Credentials") {
+      if (response.status === 200 && response.data !== "Invalid Credentials") {
         localStorage.setItem('oauth2', response.data.token);
         localStorage.setItem('userEmail', email);
 

@@ -1,5 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import "regenerator-runtime/runtime";
+
 
 test('renders learn react link', () => {
   render(<App />);
